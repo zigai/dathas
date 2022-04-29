@@ -8,7 +8,7 @@ REQUIREMENTS = (HERE / "requirements.txt").read_text()
 
 setup(name="dathas",
       version="0.0.1",
-      description=" Enhance your Python dataclasses ",
+      description=" Enhance your Python dataclasses",
       long_description=README,
       long_description_content_type="text/markdown",
       author="Ziga Ivansek",
@@ -23,5 +23,6 @@ setup(name="dathas",
           "Programming Language :: Python :: 3 :: Only",
           "Topic :: Software Development :: Libraries :: Python Modules",
       ],
-      packages=find_packages(),
+      package_dir={"": "dathas"},
+      py_modules=["dathas"],
       install_requires=REQUIREMENTS)
