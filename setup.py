@@ -13,7 +13,7 @@ setup(name="dathas",
       long_description_content_type="text/markdown",
       author="Ziga Ivansek",
       author_email="ziga.ivansek@gmail.com",
-      url="https://github.com/ziga-ivansek/dathas",
+      url="https://github.com/zigai/dathas",
       license="MIT",
       classifiers=[
           "Programming Language :: Python",
