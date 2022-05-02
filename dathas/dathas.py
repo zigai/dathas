@@ -25,9 +25,9 @@ class Dathas:
         return cls(**d)
 
     @classmethod
-    def from_json(cls, file_path: str):
-        return cls.from_dict(fs.json_load(file_path))
+    def from_json(cls, path: str):
+        return cls.from_dict(fs.json_load(path))
 
     @classmethod
-    def from_yaml(cls, file_path: str):
-        return cls.from_dict(fs.yaml_load(file_path))
+    def from_yaml(cls, path: str):
+        return cls.from_dict(fs.yaml_load(path))
