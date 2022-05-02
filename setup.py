@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 REQUIREMENTS = (HERE / "requirements.txt").read_text()
 
 setup(name="dathas",
-      version="0.0.2",
+      version="0.0.3",
       description=" Enhance your Python dataclasses",
       long_description=README,
       long_description_content_type="text/markdown",
