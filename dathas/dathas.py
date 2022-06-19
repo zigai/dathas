@@ -7,7 +7,7 @@ from stdl import fs
 class Dathas:
 
     def __init__(self) -> None:
-        ...
+        pass
 
     @property
     def dict(self) -> dict:
