@@ -1,7 +1,7 @@
-from dataclasses import asdict, astuple, dataclass
+from dataclasses import asdict, astuple
 from pprint import pprint
 
-from stdl import fs
+from dathas.util import json_load, yaml_load
 
 
 class Dathas:
@@ -26,8 +26,8 @@ class Dathas:
 
     @classmethod
     def from_json(cls, path: str):
-        return cls.from_dict(fs.json_load(path))
+        return cls.from_dict(json_load(path))
 
     @classmethod
     def from_yaml(cls, path: str):
-        return cls.from_dict(fs.yaml_load(path))
+        return cls.from_dict(yaml_load(path))
